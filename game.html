@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AeroDash</title>
+    <link rel="icon" href="./assets/icon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="navigation.js" defer></script>
+    <script src="scenario.js" defer></script>
+    <script src="plane.js" defer></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header></header>
+    <canvas></canvas>
+    <div class="lost">
+      <button>↵</button>
+      <h1>You lost</h1>
+      <button>>></button>
+    </div>
+    <script>
+      window.addEventListener("resize", () => {
+        location.reload();
+      });
+    </script>
+  </body>
+</html>
